@@ -5,7 +5,7 @@
             name: python-docker
             state: present
         when:
-           - ansible_distribution == "ubuntu"
+           - ansible_distribution == "Ubuntu"
       - name: install python-docker CentOS
         yum:
             name: python-docker
