@@ -19,6 +19,6 @@
             image: "robertobatam/httpd:4"
             state: started
             exposed_ports:
-              -80/tcp
+              - 80/tcp
             published_ports:
-              -8085:80
+              - 8085:80
